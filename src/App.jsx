@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <Link to="/react-router-error">Home</Link>
+        {" _ "}
+        <Link to="/react-router-error/contact">Contact</Link>
       </header>
     </div>
   );
